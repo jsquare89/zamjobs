@@ -1,0 +1,667 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D493B038-CD17-4934-A3E3-87506474D33F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zamjobs</RootNamespace>
+    <AssemblyName>ZamJobs</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WebForms\9.0.0.0__b03f5f7f11d50a3a\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Stylesheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="administrator.cs" />
+    <Compile Include="Administrator\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\CreateAdmin.aspx.cs">
+      <DependentUpon>CreateAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\CreateAdmin.aspx.designer.cs">
+      <DependentUpon>CreateAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\CreditAccount.aspx.cs">
+      <DependentUpon>CreditAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\CreditAccount.aspx.designer.cs">
+      <DependentUpon>CreditAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\EditDetails.aspx.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\EditDetails.aspx.designer.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ManageAdmin.aspx.cs">
+      <DependentUpon>ManageAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ManageAdmin.aspx.designer.cs">
+      <DependentUpon>ManageAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\RegistrationSuccessful.aspx.cs">
+      <DependentUpon>RegistrationSuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\RegistrationSuccessful.aspx.designer.cs">
+      <DependentUpon>RegistrationSuccessful.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\RegistrationUnsuccessful.aspx.cs">
+      <DependentUpon>RegistrationUnsuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\RegistrationUnsuccessful.aspx.designer.cs">
+      <DependentUpon>RegistrationUnsuccessful.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ViewAdminDetail.aspx.cs">
+      <DependentUpon>ViewAdminDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ViewAdminDetail.aspx.designer.cs">
+      <DependentUpon>ViewAdminDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ViewAdvertiser.aspx.cs">
+      <DependentUpon>ViewAdvertiser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ViewAdvertiser.aspx.designer.cs">
+      <DependentUpon>ViewAdvertiser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ViewJobPost.aspx.cs">
+      <DependentUpon>ViewJobPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ViewJobPost.aspx.designer.cs">
+      <DependentUpon>ViewJobPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ViewJobseeker.aspx.cs">
+      <DependentUpon>ViewJobseeker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ViewJobseeker.aspx.designer.cs">
+      <DependentUpon>ViewJobseeker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advertiser.cs" />
+    <Compile Include="AlreadyRegistered.aspx.cs">
+      <DependentUpon>AlreadyRegistered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlreadyRegistered.aspx.designer.cs">
+      <DependentUpon>AlreadyRegistered.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyDetail.aspx.cs">
+      <DependentUpon>CompanyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyDetail.aspx.designer.cs">
+      <DependentUpon>CompanyDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyJobListing.aspx.cs">
+      <DependentUpon>CompanyJobListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyJobListing.aspx.designer.cs">
+      <DependentUpon>CompanyJobListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyListing.aspx.cs">
+      <DependentUpon>CompanyListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyListing.aspx.designer.cs">
+      <DependentUpon>CompanyListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\Administrator.ascx.cs">
+      <DependentUpon>Administrator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\Administrator.ascx.designer.cs">
+      <DependentUpon>Administrator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\Advertiser.ascx.cs">
+      <DependentUpon>Advertiser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\Advertiser.ascx.designer.cs">
+      <DependentUpon>Advertiser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\jobsbyregion.ascx.cs">
+      <DependentUpon>jobsbyregion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\jobsbyregion.ascx.designer.cs">
+      <DependentUpon>jobsbyregion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\Jobseeker.ascx.cs">
+      <DependentUpon>Jobseeker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\Jobseeker.ascx.designer.cs">
+      <DependentUpon>Jobseeker.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\JobSeekerSearch.ascx.cs">
+      <DependentUpon>JobSeekerSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\JobSeekerSearch.ascx.designer.cs">
+      <DependentUpon>JobSeekerSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\quicklinksfooter.ascx.cs">
+      <DependentUpon>quicklinksfooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\quicklinksfooter.ascx.designer.cs">
+      <DependentUpon>quicklinksfooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\QuickSearch.ascx.cs">
+      <DependentUpon>QuickSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\QuickSearch.ascx.designer.cs">
+      <DependentUpon>QuickSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\TopCompanies.ascx.cs">
+      <DependentUpon>TopCompanies.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\TopCompanies.ascx.designer.cs">
+      <DependentUpon>TopCompanies.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="dataAccess.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForms\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlForms\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Applications.aspx.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Applications.aspx.designer.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator\ManageUtilities.aspx.cs">
+      <DependentUpon>ManageUtilities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator\ManageUtilities.aspx.designer.cs">
+      <DependentUpon>ManageUtilities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\JobseekerListing.aspx.cs">
+      <DependentUpon>JobseekerListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\JobseekerListing.aspx.designer.cs">
+      <DependentUpon>JobseekerListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\EditDetails.aspx.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\EditDetails.aspx.designer.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\JobAdverts.aspx.cs">
+      <DependentUpon>JobAdverts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\JobAdverts.aspx.designer.cs">
+      <DependentUpon>JobAdverts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\JobPostApplicants.aspx.cs">
+      <DependentUpon>JobPostApplicants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\JobPostApplicants.aspx.designer.cs">
+      <DependentUpon>JobPostApplicants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\JobseekerDetails.aspx.cs">
+      <DependentUpon>JobseekerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\JobseekerDetails.aspx.designer.cs">
+      <DependentUpon>JobseekerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\OrderHistory.aspx.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\OrderHistory.aspx.designer.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PostAdvert.aspx.cs">
+      <DependentUpon>PostAdvert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PostAdvert.aspx.designer.cs">
+      <DependentUpon>PostAdvert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PostFailed.aspx.cs">
+      <DependentUpon>PostFailed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PostFailed.aspx.designer.cs">
+      <DependentUpon>PostFailed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PostSuccessfull.aspx.cs">
+      <DependentUpon>PostSuccessfull.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PostSuccessfull.aspx.designer.cs">
+      <DependentUpon>PostSuccessfull.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PurchasedJobseekerDetail.aspx.cs">
+      <DependentUpon>PurchasedJobseekerDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PurchasedJobseekerDetail.aspx.designer.cs">
+      <DependentUpon>PurchasedJobseekerDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PurchasedJobseekers.aspx.cs">
+      <DependentUpon>PurchasedJobseekers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PurchasedJobseekers.aspx.designer.cs">
+      <DependentUpon>PurchasedJobseekers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PurchaseJobseekerDetails.aspx.cs">
+      <DependentUpon>PurchaseJobseekerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PurchaseJobseekerDetails.aspx.designer.cs">
+      <DependentUpon>PurchaseJobseekerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PurchaseUnits.aspx.cs">
+      <DependentUpon>PurchaseUnits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PurchaseUnits.aspx.designer.cs">
+      <DependentUpon>PurchaseUnits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\SearchJobseeker.aspx.cs">
+      <DependentUpon>SearchJobseeker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\SearchJobseeker.aspx.designer.cs">
+      <DependentUpon>SearchJobseeker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\UploadLogo.aspx.cs">
+      <DependentUpon>UploadLogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\UploadLogo.aspx.designer.cs">
+      <DependentUpon>UploadLogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmploymentInZambia.aspx.cs">
+      <DependentUpon>EmploymentInZambia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmploymentInZambia.aspx.designer.cs">
+      <DependentUpon>EmploymentInZambia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQs.aspx.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQs.aspx.designer.cs">
+      <DependentUpon>FAQs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Format.cs" />
+    <Compile Include="InvalidPageRequest.aspx.cs">
+      <DependentUpon>InvalidPageRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvalidPageRequest.aspx.designer.cs">
+      <DependentUpon>InvalidPageRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobDetails.aspx.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobDetails.aspx.designer.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobListing.aspx.cs">
+      <DependentUpon>JobListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobListing.aspx.designer.cs">
+      <DependentUpon>JobListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSearch.aspx.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSearch.aspx.designer.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jobsearch.cs" />
+    <Compile Include="jobseeker.cs" />
+    <Compile Include="Jobseeker\AdvertiserDetail.aspx.cs">
+      <DependentUpon>AdvertiserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\AdvertiserDetail.aspx.designer.cs">
+      <DependentUpon>AdvertiserDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\Applications.aspx.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\Applications.aspx.designer.cs">
+      <DependentUpon>Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\EditDetails.aspx.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\EditDetails.aspx.designer.cs">
+      <DependentUpon>EditDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\JobDetail.aspx.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\JobDetail.aspx.designer.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\UploadCV.aspx.cs">
+      <DependentUpon>UploadCV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\UploadCV.aspx.designer.cs">
+      <DependentUpon>UploadCV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="JobseekerReg.aspx.cs">
+      <DependentUpon>JobseekerReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobseekerReg.aspx.designer.cs">
+      <DependentUpon>JobseekerReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdvertiserReg.aspx.cs">
+      <DependentUpon>AdvertiserReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertiserReg.aspx.designer.cs">
+      <DependentUpon>AdvertiserReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationSuccess.aspx.cs">
+      <DependentUpon>RegistrationSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationSuccess.aspx.designer.cs">
+      <DependentUpon>RegistrationSuccess.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\zamjobsDB.mdf">
+    </Content>
+    <Content Include="App_Data\zamjobsDB_log.ldf">
+      <DependentUpon>zamjobsDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="ControlForms\login.ascx" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="JobseekerReg.aspx" />
+    <Content Include="AdvertiserReg.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrator\Profile.aspx" />
+    <Content Include="Employer\PostAdvert.aspx" />
+    <Content Include="Employer\Profile.aspx" />
+    <Content Include="Employer\Web.config" />
+    <Content Include="favicon.ico" />
+    <Content Include="Jobseeker\Profile.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="ProgramInformation.htm" />
+    <Content Include="RegistrationSuccess.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrator\web.config" />
+    <Content Include="AlreadyRegistered.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Employer\EditDetails.aspx" />
+    <Content Include="EmploymentInZambia.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlForms\Administrator.ascx" />
+    <Content Include="ControlForms\Advertiser.ascx" />
+    <Content Include="ControlForms\Jobseeker.ascx" />
+    <Content Include="ControlForms\QuickSearch.ascx" />
+    <Content Include="Employer\Applications.aspx" />
+    <Content Include="Employer\JobPostApplicants.aspx" />
+    <Content Include="Employer\JobseekerDetails.aspx" />
+    <Content Include="FAQs.aspx" />
+    <Content Include="Images\header-banner.gif" />
+    <Content Include="Images\tab_bg.gif" />
+    <Content Include="Images\tab_bg_blue.gif" />
+    <Content Include="InvalidPageRequest.aspx" />
+    <Content Include="JobDetails.aspx" />
+    <Content Include="JobListing.aspx" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrator\ChangePassword.aspx" />
+    <Content Include="Administrator\CreateAdmin.aspx" />
+    <Content Include="Administrator\CreditAccount.aspx" />
+    <Content Include="Administrator\EditDetails.aspx" />
+    <Content Include="Administrator\ManageAdmin.aspx" />
+    <Content Include="Administrator\RegistrationSuccessful.aspx" />
+    <Content Include="Administrator\RegistrationUnsuccessful.aspx" />
+    <Content Include="Administrator\Reports.aspx" />
+    <Content Include="Administrator\ViewAdminDetail.aspx" />
+    <Content Include="Administrator\ViewAdvertiser.aspx" />
+    <Content Include="Administrator\ViewJobPost.aspx" />
+    <Content Include="Administrator\ViewJobseeker.aspx" />
+    <Content Include="Adverts.xml" />
+    <Content Include="CompanyDetail.aspx" />
+    <Content Include="CompanyJobListing.aspx" />
+    <Content Include="CompanyListing.aspx" />
+    <Content Include="ControlForms\jobsbyregion.ascx" />
+    <Content Include="ControlForms\JobSeekerSearch.ascx" />
+    <Content Include="ControlForms\quicklinksfooter.ascx" />
+    <Content Include="ControlForms\TopCompanies.ascx" />
+    <Content Include="Employer\ChangePassword.aspx" />
+    <Content Include="Administrator\ManageUtilities.aspx" />
+    <Content Include="Employer\Images\jobpost_devider.gif" />
+    <Content Include="Employer\JobseekerListing.aspx" />
+    <Content Include="Employer\Order.aspx" />
+    <Content Include="Employer\JobAdverts.aspx" />
+    <Content Include="Employer\OrderHistory.aspx" />
+    <Content Include="Employer\PostFailed.aspx" />
+    <Content Include="Employer\PostSuccessfull.aspx" />
+    <Content Include="Employer\PurchasedJobseekerDetail.aspx" />
+    <Content Include="Employer\PurchasedJobseekers.aspx" />
+    <Content Include="Employer\PurchaseJobseekerDetails.aspx" />
+    <Content Include="Employer\PurchaseUnits.aspx" />
+    <Content Include="Employer\SearchJobseeker.aspx" />
+    <Content Include="Employer\UploadLogo.aspx" />
+    <Content Include="Images\bg-tile.gif" />
+    <Content Include="Images\bg-tile_faint.gif" />
+    <Content Include="Images\jobpost_devider.gif" />
+    <Content Include="Images\no-logo.gif" />
+    <Content Include="JobSearch.aspx" />
+    <Content Include="Jobseeker\AdvertiserDetail.aspx" />
+    <Content Include="Jobseeker\Applications.aspx" />
+    <Content Include="Jobseeker\ChangePassword.aspx" />
+    <Content Include="Jobseeker\EditDetails.aspx" />
+    <Content Include="Jobseeker\JobDetail.aspx" />
+    <Content Include="Jobseeker\UploadCV.aspx" />
+    <Content Include="Admin.Master" />
+    <Content Include="RotatingAdverts\Ad_NorthriseUniversity.gif" />
+    <Content Include="RotatingAdverts\Ad_zamjobs.gif" />
+    <Content Include="RotatingAdverts\zamjobs_ad.png" />
+    <Content Include="splash.htm" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1667</DevelopmentServerPort>
+          <DevelopmentServerVPath>/zamjobs.com</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

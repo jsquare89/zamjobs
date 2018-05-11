@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home page">
+    <siteMapNode url="~/Login.aspx" title="Login"  description="Client Login" />
+    <siteMapNode url="~/EmploymentInZambia.aspx" title="Employment In Zambia"  description="Employment In Zambia" />
+    <siteMapNode url="~/FAQs.aspx" title="FAQ's"  description="Frequently Asked Questions" />
+    <siteMapNode url="~/ContactUs.aspx" title="Contact Us"  description="Contact Us" />
+    <siteMapNode url="~/JobseekerReg.aspx" title="JobSeeker Registration"  description="Jobseeker Registration" />
+    <siteMapNode url="~/CompanyListing.aspx" title="Advertiser Listing"  description="Advertiser Listing">
+      <siteMapNode url="~/CompanyDetail.aspx" title="Advertiser Detail"  description="Advertiser Detail" />
+      <siteMapNode url="~/CompanyJobListing.aspx" title="Company Job Listing"  description="Company Job Listing" />
+    </siteMapNode>
+    <siteMapNode url="~/AdvertiserReg.aspx" title="Advertiser Registration"  description="Advitisor Registration" />
+    <siteMapNode url="~/AlreadyRegistered.aspx" title="Already Registered"  description="Already Registered" />
+    <siteMapNode url="~/RegistrationSuccess.aspx" title="Successful Registration"  description="Successful Registration Notice" />
+    <siteMapNode url="~/JobDetails.aspx" title="Job Details"  description="Job Details" />
+    <siteMapNode url="~/JobListing.aspx" title="Job Listing"  description="Job Listing" />
+    <siteMapNode url="~/JobSearch.aspx" title="Job Search" description="Job Search" />
+    <siteMapNode url="InvalidPageRequest.aspx" title="Invalid Page Request" description="Invalid Page Request"/>
+    <siteMapNode url="~/Employer/Profile.aspx" title="Advertiser Profile"  description="Advertiser Profile">
+      <siteMapNode url="~/Employer/EditDetails.aspx" title="Edit Details"  description="Edit Details" />
+      <siteMapNode url="~/Employer/ChangePassword.aspx" title="Change Password"  description="Change Password" />
+      <siteMapNode url="~/Employer/PurchaseUnits.aspx" title="Purchase Units"  description="Purchase Units"/>
+      <siteMapNode url="~/Employer/Order.aspx" title="Order"  description="Order" />
+      <siteMapNode url="~/Employer/OrderHistory.aspx" title="Order History"  description="Order History" />
+      <siteMapNode url="~/Employer/PostSuccessfull.aspx" title="Post Successful"  description="Post Successful" />
+      <siteMapNode url="~/Employer/PostFailed.aspx" title="Post Failed"  description="Post Failed" />
+      <siteMapNode url="~/Employer/Applications.aspx" title="Job Applications"  description="Job Applications">
+        <siteMapNode url="~/Employer/JobPostApplicants.aspx" title="Job Post Applicants"  description="Job Post Applicants" />
+        <siteMapNode url="~/Employer/JobseekerDetails.aspx" title="Jobseeker Details"  description="Jobseeker Details" />
+      </siteMapNode>
+      <siteMapNode url="~/Employer/PurchasedJobseekers.aspx" title="Purchased Jobseekers"  description="Purchased Jobseekers">
+        <siteMapNode url="~/Employer/PurchasedJobseekerDetail.aspx" title="Purchased Jobseeker Detail"  description="Purchased Jobseeker Detail"/>
+        </siteMapNode>
+      <siteMapNode url="~/Employer/SearchJobseeker.aspx" title="Jobseeker Search"  description="Jobseeker Search">
+        <siteMapNode url="~/Employer/JobseekerListing.aspx" title="Jobseeker Listing"  description="Jobseeker Listing" />
+        <siteMapNode url="~/Employer/PurchaseJobseekerDetails.aspx" title="Purchase Jobseeker Details"  description="Purchase Jobseeker Details" />
+      </siteMapNode>
+      <siteMapNode url="~/Employer/PostAdvert.aspx" title="Post Advert"  description="Post Advert" />
+      <siteMapNode url="~/Employer/JobAdverts.aspx" title="View Posted Job Adverts"  description="View Job Adverts" />
+      <siteMapNode url="~/Employer/UploadLogo.aspx" title="Upload/Change Logo"  description="Upload/Change Logo" />
+    </siteMapNode>
+    <siteMapNode url="~/Jobseeker/Profile.aspx" title="Jobseeker Profile"  description="Advertiser Profile">
+      <siteMapNode url="~/Jobseeker/EditDetails.aspx" title="Edit Details"  description="Edit Details" />
+      <siteMapNode url="~/Jobseeker/ChangePassword.aspx" title="Change Password"  description="Change Password" />
+      <siteMapNode url="~/Jobseeker/UploadCV.aspx" title="Upload/Change CV"  description="Upload/Change CV" />
+      <siteMapNode url="~/Jobseeker/Applications.aspx" title="View Job Applications"  description="View Job Applications">
+        <siteMapNode url="~/Jobseeker/AdvertiserDetail.aspx" title="Advertiser Details"  description="Advertiser Details" />
+        <siteMapNode url="~/Jobseeker/JobDetail.aspx" title="Job Details"  description="Job Details" />    
+    </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/Administrator/Profile.aspx" title="Administrator Profile"  description="Administrator Profile">
+      <siteMapNode url="~/Administrator/EditDetails.aspx" title="Edit Details"  description="Edit Details" />
+      <siteMapNode url="~/Administrator/ChangePassword.aspx" title="Change Password"  description="Change Password" />
+      <siteMapNode url="~/Administrator/ViewJobseeker.aspx" title="Manage Jobseekers"  description="Manage Jobseekers" />
+      <siteMapNode url="~/Administrator/ViewAdvertiser.aspx" title="Manage Advertisers"  description="Manage Advertisers" />
+      <siteMapNode url="~/Administrator/ViewJobPost.aspx" title="Manage Job Posts"  description="Manage Job Posts" />
+      <siteMapNode url="~/Administrator/ManageUtilities.aspx" title="Manage Utilities"  description="Manage Utilities" />
+      <siteMapNode url="~/Administrator/Reports.aspx" title="Reports"  description="Reports" />
+      <siteMapNode url="~/Administrator/CreditAccount.aspx" title="Manage Advertiser Units"  description="Manage Advertiser Units" />
+      <siteMapNode url="~/Administrator/ManageAdmin.aspx" title="Manage Administrators"  description="Manage ADministrators">
+        <siteMapNode url="~/Administrator/CreateAdmin.aspx" title="Create Admin"  description="Create Admin" >
+          <siteMapNode url="~/Administrator/RegistrationUnsuccessful.aspx" title="Registration Unsuccessful"  description="Registration Unsuccessful" />
+            <siteMapNode url="~/Administrator/RegistrationSuccessful.aspx" title="Registration Successful"  description="Registration Successful" />
+        </siteMapNode>
+        <siteMapNode url="~/Administrator/ViewAdminDetail.aspx" title="Admin Detail"  description="Admin Detail" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

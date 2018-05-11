@@ -1,0 +1,5 @@
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\bin\JobsInZambia.com.dll
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\bin\JobsInZambia.com.pdb
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\ResolveAssemblyReference.cache
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\JobsInZambia.com.dll
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\JobsInZambia.com.pdb

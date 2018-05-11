@@ -1,0 +1,95 @@
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\ResolveAssemblyReference.cache
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\bin\ZamJobs.dll
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\bin\ZamJobs.pdb
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\ZamJobs.dll
+D:\JobsInZambia.com - 7 June\JobsInZambia.com\obj\Debug\ZamJobs.pdb
+D:\JobsInZambia.com - 7 June\zamjobs\bin\ZamJobs.dll
+D:\JobsInZambia.com - 7 June\zamjobs\bin\ZamJobs.pdb
+D:\JobsInZambia.com - 7 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\JobsInZambia.com - 7 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\JobsInZambia.com - 7 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 9 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 9 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 9 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 9 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 9 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 10 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 10 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 10 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 10 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 10 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 15 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 15 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 15 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 15 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 15 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 22 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 22 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 22 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 22 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 22 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 27 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 27 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 27 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 27 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 27 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs -30 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs -30 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs -30 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs -30 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs -30 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs -3 June\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs -3 June\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs -3 June\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs -3 June\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs -3 June\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs -6 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs -6 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs -6 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs -6 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs -6 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs -8 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs -8 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs -8 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs -8 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs -8 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 8 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 8 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 8 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 8 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 8 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 11 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 11 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 11 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 11 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 11 July\zamjobs\obj\Debug\ZamJobs.pdb
+E:\ZamJobs - 13 July - delete admin testing\zamjobs\bin\ZamJobs.dll
+E:\ZamJobs - 13 July - delete admin testing\zamjobs\bin\ZamJobs.pdb
+E:\ZamJobs - 13 July - delete admin testing\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+E:\ZamJobs - 13 July - delete admin testing\zamjobs\obj\Debug\ZamJobs.dll
+E:\ZamJobs - 13 July - delete admin testing\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 13 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 13 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 13 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 13 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 13 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 18 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 18 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 18 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 18 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 18 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 19 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 19 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 19 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 19 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 19 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 20 July\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 20 July\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 20 July\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 20 July\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 20 July\zamjobs\obj\Debug\ZamJobs.pdb
+D:\ZamJobs - 20 July - Copy - removed salaray from jobPost\zamjobs\obj\Debug\ResolveAssemblyReference.cache
+D:\ZamJobs - 20 July - Copy - removed salaray from jobPost\zamjobs\obj\Debug\ZamJobs.dll
+D:\ZamJobs - 20 July - Copy - removed salaray from jobPost\zamjobs\bin\ZamJobs.dll
+D:\ZamJobs - 20 July - Copy - removed salaray from jobPost\zamjobs\bin\ZamJobs.pdb
+D:\ZamJobs - 20 July - Copy - removed salaray from jobPost\zamjobs\obj\Debug\ZamJobs.pdb

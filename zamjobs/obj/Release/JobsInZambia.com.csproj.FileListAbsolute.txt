@@ -1,0 +1,5 @@
+E:\Jarred - Final Project\JobsInZambia.com\JobsInZambia.com\bin\JobsInZambia.com.dll
+E:\Jarred - Final Project\JobsInZambia.com\JobsInZambia.com\bin\JobsInZambia.com.pdb
+E:\Jarred - Final Project\JobsInZambia.com\JobsInZambia.com\obj\Release\ResolveAssemblyReference.cache
+E:\Jarred - Final Project\JobsInZambia.com\JobsInZambia.com\obj\Release\JobsInZambia.com.dll
+E:\Jarred - Final Project\JobsInZambia.com\JobsInZambia.com\obj\Release\JobsInZambia.com.pdb

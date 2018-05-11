@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="zamjobs.Admin" %>
+
+<%@ Register src="ControlForms/login.ascx" tagname="login" tagprefix="uc1" %>
+
+<%@ Register src="ControlForms/QuickSearch.ascx" tagname="Search" tagprefix="uc2" %>
+
+<%@ Register src="ControlForms/Advertiser.ascx" tagname="Advertiser" tagprefix="uc3" %>
+
+<%@ Register src="ControlForms/Jobseeker.ascx" tagname="Jobseeker" tagprefix="uc4" %>
+
+<%@ Register src="ControlForms/Administrator.ascx" tagname="Administrator" tagprefix="uc5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="favicon.ico"/>
+    <title>ZamJobs.com - Home</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="thrColLiqHdr">
+    <form id="form1" runat="server">
+        <div id="container"><a id="top"></a>
+        <div id="header">
+            <asp:Image  ImageUrl="~/Images/header-banner.gif"  Width="100%" ID="header_banner" runat="server" />
+        </div>
+        
+        <div id="menu">
+        <ul>
+
+        <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Jobseeker/Profile.aspx">Job 
+            Seeker</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Employer/Profile.aspx">Advertiser</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/EmploymentInZambia.aspx">Employement 
+            In Zambia</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/FAQs.aspx">FAQs</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/ContactUs.aspx">Contact 
+            Us</asp:HyperLink></li>
+        
+        </ul>
+        </div>
+        <div id="sidebar1">
+        <uc1:login ID="login" runat="server" />                
+            <uc5:Administrator ID="AdministratorControl" runat="server" />
+ 
+        </div><!-- end #sidebar1 -->
+        <div id="sidebar2Admin">
+        </div>          
+        
+        <div id="mainContentAdmin">
+        <div id="breadcrumbs">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+            </asp:SiteMapPath>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </div>
+	    <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+        <div id="footer">
+            <h4>
+            <a href="#top" style="font-size: x-small">Back to Top ↑</a>
+
+            </h4>
+
+            <p>Footer (quick links) and site information, webmaster address, copywrite.</p>
+        </div><!-- end #footer -->
+        </div><!-- end #container -->
+    </form>
+</body>
+</html>
+
+

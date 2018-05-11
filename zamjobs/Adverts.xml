@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/RotatingAdverts/Ad_zamjobs.gif</ImageUrl>
+    <NavigateUrl>http://www.zamjobs.com</NavigateUrl>
+    <AlternateText>ZamJobs.com - Providing Opportunity For the Nation</AlternateText>
+    <!-- Relative number of times image previews compared to others-->
+    <Impression>50</Impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/RotatingAdverts/Ad_NorthriseUniversity.gif</ImageUrl>
+    <NavigateUrl>http://www.northriseuniversity.com</NavigateUrl>
+    <AlternateText>Northrise University</AlternateText>
+    <!-- Relative number of times image previews compared to others-->
+    <Impression>50</Impression>
+  </Ad>
+
+
+</Advertisements>
